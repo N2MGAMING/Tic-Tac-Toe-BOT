@@ -1,8 +1,8 @@
 from random import choice
 from time import sleep
 
-class BOT():# BOT Class
-	def play(coor, allowed, turn):
+class Bot(self):# BOT Class
+	def play(self, coor, allowed, turn):
 		
 		n = True # n variable to see if the Bot played according to the condition Table
 		
@@ -269,7 +269,7 @@ while running:
 	if end == True:
 		break
 	sleep(1)
-	P2 = BOT.play(coor, allowed, turn)
+	P2 = Bot.play(coor, allowed, turn)
 	allowed.remove(P2)
 	
 	coor[P2] = coor[P2].replace(" ", "o")
