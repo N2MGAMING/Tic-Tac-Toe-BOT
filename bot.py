@@ -1,3 +1,5 @@
+from random import choice
+
 class Bot():# BOT Class
 	def play(coor, allowed, turn):
 		
